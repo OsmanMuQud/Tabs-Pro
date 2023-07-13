@@ -1,0 +1,12 @@
+--done (1)drag and drop
+--done (2)presistent group drop
+(3)window limit for tabs
+--done (4)active tab highlight
+--done (5)goto group
+--done (6)search option
+--done (7) add group
+--done (8) remove group
+--done (9) rename groups
+--done (10) remove duplicate tabs
+--done (11) ungroup
+

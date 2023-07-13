@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="main_header">
+      <h1>
+        Manage your tabs like a pro.😎
+      </h1>
+        <button class="theme_handler" id="theme_handler">
+          <img class="theme_img" id="theme_img" src="./assets/closeicon.png" alt="" srcset="">
+        </button>
+    </div>
+      <div class="search_option" id="search_option">
+        <input type="text" name="" id="search_input" placeholder="Search tab names." class="search_input">
+        <button id="search_button" class="search_button">search</button>
+        <button id="clear_search" class="clear_search button">
+          <img src="./assets/closeicon.png" alt="" srcset="">
+        </button>
+      </div>
+      <div class="dashboard_buttons">
+        <button class="button" id="group_button" title="Group all tabs based on url">
+          <img src="assets/groupicon.png" alt="add icon" srcset="">
+        </button>
+        <button class="button" id="ungroup_button" title="Ungroup all tabs">
+          <img src="assets/ungroupicon.png" alt="remove icon" srcset="">
+        </button>
+        <button class="button" id="merge_button" title="Merge Same Name">
+          <img src="assets/merge.png" alt="merge icon" srcset="">
+        </button>
+        <button class="button" id="remove_duplicate_button" title="Remove duplicate tabs">
+          <img src="assets/duplicateremove.png" alt="duplicate icon" srcset="">
+        </button>
+        <button class="button" id="remove_newtab_button" title="Remove all new tabs">
+          <img src="assets/removeNewTab.png" alt="duplicate icon" srcset="">
+        </button>
+        <!-- <a id="active_link" href="#theme_handler">Active Window</a> -->
+        <p id="output"></p>
+      </div>
+      </span>
+      <div id="dashboard"></div>
+    <div id="data_content"></div>
+    <!-- <footer class="footer">
+      All icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </footer> -->
+  </body>
+</html>
